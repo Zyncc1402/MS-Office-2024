@@ -30,7 +30,7 @@ Now open this folder in CMD
 setup /configure configuration.xml
 ```
 
-Wait for a few minutes as the files are being downloaded, then run this command again
+Wait for a few minutes as the files are being downloaded, then run the following command
 
 ```bash
 setup /download configuration.xml
