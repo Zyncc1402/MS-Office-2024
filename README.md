@@ -8,6 +8,20 @@ Rename the first file to
 configuration.xml
 ```
 
+Delete all the text in the first file and paste the following text
+
+```bash
+<Configuration>
+  <Add OfficeClientEdition="64"  Channel="PerpetualVL2024">
+     <Product ID="ProPlus2024Volume" PIDKEY="#####-#####-#####-#####-#####" >
+         <Language ID="en-us" />
+    </Product>
+  </Add>
+  <RemoveMSI />
+  <Property Name="AUTOACTIVATE" Value="1" />
+</Configuration>
+```
+
 And delete the remaining files except the setup.exe file
 
 Now open this folder in CMD
