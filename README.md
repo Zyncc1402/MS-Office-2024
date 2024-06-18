@@ -2,6 +2,14 @@
 
 First run the Office deployment tool and extract the files onto a folder.
 
+Rename the first file to
+
+```bash
+configuration.xml
+```
+
+And delete the remaining files except the setup.exe file
+
 Now open this folder in CMD
 
 ```bash
@@ -11,7 +19,7 @@ setup /configure configuration.xml
 Wait for a few minutes as the files are being downloaded, then run this command again
 
 ```bash
-setup /configure configuration.xml
+setup /download configuration.xml
 ```
 
 Installation will begin
