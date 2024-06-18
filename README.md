@@ -30,4 +30,3 @@ Open MS Word and go to Account and Activate the license using the below code
 Y63J7-9RNDJ-GD3BV-BDKBP-HH966
 ```
 
-## Enjoy
